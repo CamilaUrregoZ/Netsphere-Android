@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="registrate">Registrate</string>
+    <string name="comienza">Comienza</string>
+    <string name="inicia_una_nueva_aventura_con_netsphere_y_descubre_una_nueva_forma_de_ver_el_mundo">Inicia una nueva aventura con NetSphere y descubre una nueva forma de ver el mundo</string>
+    <string name="netsphere">NetSphere</string>
+    <string name="la_aventura_esta_por_iniciar_por_favor_inicia_sesion">La aventura esta por iniciar, por favor inicia sesion</string>
+    <string name="recupera_tu_contrase_a">Recupera tu contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarse">Registrate</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="ingresa_con_google">Ingresa con Google</string>
+    <string name="Netsphere">NetSphere</string>
+    <string name="maria_camila_urrego_zambrano">Maria Camila Urrego Zambrano</string>
+</resources>

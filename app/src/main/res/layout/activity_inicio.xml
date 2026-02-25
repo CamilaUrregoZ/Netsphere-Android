@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primario"
+    tools:context=".Activities.InicioActivity">
+
+    <ImageView
+        android:id="@+id/logoAplicacionInicio"
+        android:layout_width="161dp"
+        android:layout_height="172dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/NombreAplicacionInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="436dp"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/netsphere"
+        android:textColor="@color/white"
+        android:textSize="80px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <TextView
+        android:id="@+id/DescripcionInicio"
+        android:layout_width="309dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/inicia_una_nueva_aventura_con_netsphere_y_descubre_una_nueva_forma_de_ver_el_mundo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60px"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
+
+    <Button
+        android:id="@+id/BotonComienza"
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/botones"
+        android:text="@string/comienza"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:textSize="60px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759"
+        app:strokeColor="@color/white"
+        app:strokeWidth="3dp" />
+
+    <TextView
+        android:id="@+id/RegistroInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registrate"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.907" />
+</androidx.constraintlayout.widget.ConstraintLayout>

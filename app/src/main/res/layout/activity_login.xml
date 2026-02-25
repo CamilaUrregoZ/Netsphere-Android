@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/primario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/logoAplicacion2"
+        android:layout_width="88dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/NombreAplicacion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/netsphere"
+        android:textColor="@color/white"
+        android:textSize="80px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:id="@+id/DescripcionLogin"
+        android:layout_width="337dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/la_aventura_esta_por_iniciar_por_favor_inicia_sesion"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60px"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277" />
+
+    <Button
+        android:id="@+id/BotonIngresar"
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/botones"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/ingresar"
+        android:textSize="60px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638"
+        app:strokeColor="@color/white"
+        app:strokeWidth="3dp" />
+
+    <TextView
+        android:id="@+id/TextRecuperarContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/recupera_tu_contrase_a"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711" />
+
+    <ImageView
+        android:id="@+id/IconosLogin"
+        android:layout_width="106dp"
+        android:layout_height="121dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:srcCompat="@drawable/iconoslogin" />
+
+    <EditText
+        android:id="@+id/CampoUsuarioLogin"
+        android:layout_width="214dp"
+        android:layout_height="44dp"
+        android:background="@drawable/style_edit_text"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.756"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <EditText
+        android:id="@+id/CampoContraseñaLogin"
+        android:layout_width="214dp"
+        android:layout_height="44dp"
+        android:background="@drawable/style_edit_text"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/registrarse"
+        android:textAlignment="center"
+        android:textColor="@color/botones"
+        android:textSize="50px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <TextView
+        android:id="@+id/CrearUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/no_tienes_cuenta"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <EditText
+        android:id="@+id/InicioconGoogle"
+        android:layout_width="309dp"
+        android:layout_height="64dp"
+        android:background="@drawable/style_edit_text"
+        android:ems="10"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:inputType="text"
+        android:paddingStart="75dp"
+        android:text="@string/ingresa_con_google"
+        android:textSize="65px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841" />
+
+    <ImageView
+        android:id="@+id/iconoGoogle"
+        android:layout_width="62dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83"
+        app:srcCompat="@drawable/iconogoogle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
